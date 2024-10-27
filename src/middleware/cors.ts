@@ -1,4 +1,6 @@
-import cors from "cors";
+// import cors from "cors";
+
+const cors = require("cors");
 
 const corsMiddleware = cors({
   origin: "https://sam-element-fullstack-coding-challenge-frontend.vercel.app",
