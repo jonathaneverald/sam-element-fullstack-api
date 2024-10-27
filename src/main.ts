@@ -12,7 +12,7 @@ web.listen(3000, () => {
 
 web.use(
   cors({
-    origin: ["http://localhost:3000", "https://sam-element-fullstack-coding-challenge-frontend.vercel.app/"],
+    origin: ["http://localhost:3000", "https://sam-element-fullstack-coding-challenge-frontend.vercel.app"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
     allowedHeaders: ["Content-Type", "X-API-TOKEN"],
