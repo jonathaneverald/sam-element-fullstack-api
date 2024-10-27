@@ -7,6 +7,7 @@ import corsMiddleware from "../middleware/cors";
 export const web = express();
 
 web.use(corsMiddleware);
+web.options("*", corsMiddleware);
 web.use(express.json());
 web.use(publicRouter);
 web.use(apiRouter);
