@@ -10,4 +10,6 @@ const corsMiddleware = cors({
   exposedHeaders: ["X-API-TOKEN"],
 });
 
+console.log("CORS Middleware Applied"); // Add this for debugging
+
 export default corsMiddleware;
